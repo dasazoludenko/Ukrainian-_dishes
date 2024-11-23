@@ -1,32 +1,15 @@
-<html>
-    <head> 
-        <title>Українська кулінарія</title>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
-        <header>
-            <img class="logo" src="https://st.depositphotos.com/1257064/1986/v/450/depositphotos_19860259-stock-illustration-borscht-soup-and-lard-with.jpg">
-            <nav class="nav">
-                <a class="nav__link" href="#section1">Український Борщ</a>
-                <a class="nav__link" href="#section2">Вареники з вищнею</a>
-                <a class="nav__link" href="#section3">Сало</a>
-                <a class="nav__link" href="#section3">Голупці</a>
-                <a class="nav__link" href="#section3">Деруни</a>
-                <a class="nav__link" href="#section3">Кутя</a>
-                <a class="nav__link" href="#section3">Пампушка</a>
-                <a class="nav__link" href="#section3">Узвар</a>
-                <a class="nav__link" href="#section3">Крученики</a>
-                <a class="nav__link" href="#section3">Ковбаса домашня</a>
-            </nav>
-        </header>
-
-        <main>
-            <h1 class="title">ДОМАШНІ Українські страви</h1>
-        </main>
-        
-        <footer>Голодні?Проголодалися?заказуйте в нашому ресторані Українські страви!
-            Званіть за номером:+3809722002652 / +380985064664 / +380972413915.
-            Чекаємо! </footer>
-    </body>
-</html>
-        
+.logo {
+   width: 130px;
+}
+.nav__link {
+   display: inline-block;
+   font-size: 15px;
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.title {
+   color: black;
+   font-size: 35px;
+}
